@@ -1,0 +1,16 @@
+@use "variable";
+@use "main";
+@use "thankyou";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: variable.$white;
+  width: 100%;
+  height: 100vh;
+  font-size: variable.$bodyfont;
+  font-family: variable.$font;
+}
